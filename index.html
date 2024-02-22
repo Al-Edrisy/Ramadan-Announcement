@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Ramadan Announcement</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="announcement">Ramadan Tarawih Prayers Announcement</h1>
+        <p>
+            Join us for the nightly Tarawih prayers during Ramadan, where one Juz' of the Quran will be completed each night until the end of Ramadan.
+        </p>
+        <div class="mosque-info">
+            <div class="card">
+                <h2 id="locationLabel">Mosque Location </h2>
+                <a href="https://maps.app.goo.gl/D56ZEMjBEdFQWLVQ9"> Click here</a>
+            </div>
+            
+            <div class="card">
+                <h2 id="scanLabel">Scan QR Code</h2>
+                <img src="/qr_code.png" alt="QR Code">
+            </div>
+        </div>
+        <div class="invitation">
+            <p id="invitation">
+                We invite you and your family to join us in these special prayers and spiritual gatherings. Let us come together as a community to seek the blessings and mercy of Allah during this sacred month.
+            </p>
+            <p id="inviteLabel">
+                Please feel free to invite your friends and family to join us. May Allah accept our prayers and grant us the strength to make the most of this blessed month.
+            </p>
+        </div>
+        <div class="language-selector">
+            <button class="active" data-lang="en" onclick="changeLanguage('en')">English</button>
+            <button data-lang="ar" onclick="changeLanguage('ar')">العربية</button>
+            <button data-lang="tr" onclick="changeLanguage('tr')">Türkçe</button>
+            <button data-lang="fr" onclick="changeLanguage('fr')">Français</button>
+            <button data-lang="ru" onclick="changeLanguage('ru')">Русский</button>
+            <button data-lang="ja" onclick="changeLanguage('ja')">日本語</button>
+        </div>
+    </div>
+    
+</body>
+</html>
